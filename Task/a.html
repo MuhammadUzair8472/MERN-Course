@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Decor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 font-sans">
+
+  <!-- Navbar -->
+  <header class="w-full border-b bg-white">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <!-- Logo -->
+      <h1 class="text-2xl font-bold">Embellie</h1>
+
+      <!-- Nav Links -->
+      <nav class="hidden md:flex space-x-8 text-gray-700">
+        <a href="#" class="hover:text-gray-900">Home</a>
+        <a href="#" class="hover:text-gray-900">Collection</a>
+        <a href="#" class="hover:text-gray-900">Categories</a>
+        <a href="#" class="hover:text-gray-900">Galleries</a>
+        <a href="#" class="hover:text-gray-900">About</a>
+      </nav>
+
+      <!-- Right side -->
+      <div class="flex items-center space-x-4">
+        <span class="text-sm text-gray-600">EN | ID</span>
+        <button class="p-2 border rounded md:hidden">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-2 gap-10 items-center">
+
+    <!-- Left Content -->
+    <div>
+      <h2 class="text-5xl font-bold text-gray-900 leading-tight">
+        Classy products <br /> for your home <br /> decoration
+      </h2>
+      <p class="mt-4 text-gray-600">
+        Any home decor elements you’re looking for is available here
+      </p>
+
+      <!-- Buttons -->
+      <div class="mt-6 flex space-x-4">
+        <button class="bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-700">
+          Shop Now
+        </button>
+        <button class="flex items-center space-x-2 border px-6 py-3 rounded-lg text-gray-700 hover:bg-gray-100">
+          <span>▶</span>
+          <span>Watch Video</span>
+        </button>
+      </div>
+
+      <!-- Stats -->
+      <div class="mt-10 flex space-x-10 text-gray-800">
+        <div>
+          <p class="text-2xl font-bold">321+</p>
+          <p class="text-sm">Product Collection</p>
+        </div>
+        <div>
+          <p class="text-2xl font-bold">25+</p>
+          <p class="text-sm">Categories</p>
+        </div>
+        <div>
+          <p class="text-2xl font-bold">15+</p>
+          <p class="text-sm">Years Experience</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Content -->
+    <div class="relative">
+      <!-- Vase Image -->
+      <img src="https://via.placeholder.com/400x500" alt="Vase" class="mx-auto" />
+
+      <!-- Side Menu -->
+      <div class="absolute top-1/4 right-0 space-y-4 text-gray-600 text-sm">
+        <p><span class="font-bold">01</span> Vase</p>
+        <p><span class="font-bold">02</span> Carpet</p>
+        <p><span class="font-bold">03</span> Lamp Shade</p>
+        <p><span class="font-bold">04</span> Wall Decoration</p>
+      </div>
+
+      <!-- Product Card -->
+      <div
+        class="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-white shadow-md rounded-lg p-4 flex items-center space-x-6">
+        <p class="text-gray-900 font-bold">$175.00</p>
+
+        <!-- Quantity -->
+        <div class="flex items-center space-x-2">
+          <button class="px-2 py-1 border rounded">-</button>
+          <span>1</span>
+          <button class="px-2 py-1 border rounded">+</button>
+        </div>
+
+        <!-- Add to Cart -->
+        <button class="bg-gray-900 text-white px-4 py-2 rounded hover:bg-gray-700">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+.main {
+
+     position: relative;
+     height: 400px;
+     width: 300px;
+     box-shadow: 20px solid black;
+     border: 2px solid black;
+}
+
+.image {
+
+     position: absolute;
+
+
+
+}
+
+.btn {
+
+     position: absolute;
+     right: 10px;
+     top: 10px;
+     border-radius: 10px;
+     border: none;
+     color: red;
+
+
+
+}
+
+.text {
+     position: relative;
+     top: 45%;
+     left: 15px;
+     font-size: large;
+
+}
+
+.image img {
+
+
+     margin: 15px;
+     height: 160px;
+     width: 100%;
+
+}
