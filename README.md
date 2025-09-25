@@ -29,25 +29,31 @@ I'm learning full-stack web development from scratch, building projects and gain
 ## 📁 Repository Structure
 
 ```
-fullstack-journey/
-├── Day1.html          # First day - HTML basics
-├── m.jpg             # Course materials/images
-└── README.md         # This file
+MERN-Course/
+├── Day01-Html/          # HTML basics and first projects
+├── Day02_CSS/           # CSS styling and layouts
+├── Day03_Assig/         # Assignments and practice
+├── Day04_Assig/         # Advanced assignments
+├── Assig_loginPage/     # Login page project
+├── Task/                # Various tasks and exercises
+├── project_frontend/    # Frontend projects
+└── README.md            # This file
 ```
 
 ## 📈 Daily Progress
 
 - **Day 1** ✅ - HTML basics and project setup
-- **Day 2** 🔄 - Coming soon...
-- **Day 3** 📅 - TBD
-- **Day 4** 📅 - TBD
+- **Day 2** ✅ - CSS styling and responsive design
+- **Day 3** ✅ - JavaScript fundamentals
+- **Day 4** ✅ - Advanced CSS with Tailwind
+- **More days** 🔄 - Ongoing learning...
 
 *I'll update this section daily as I progress through the course!*
 
 ## 🎯 Learning Goals
 
-- [ ] Master HTML, CSS, and JavaScript fundamentals
-- [ ] Build responsive web applications
+- [x] Master HTML, CSS, and JavaScript fundamentals
+- [x] Build responsive web applications
 - [ ] Learn React.js for modern frontend development
 - [ ] Understand backend development with Node.js & Express
 - [ ] Work with MongoDB databases
@@ -58,12 +64,12 @@ fullstack-journey/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/MuhammadUzair8472/fullstack-journey.git
+   git clone https://github.com/MuhammadUzair8472/MERN-Course.git
    ```
 
 2. **Navigate to project folder**
    ```bash
-   cd fullstack-journey
+   cd MERN-Course
    ```
 
 3. **Explore daily folders/files** to see my progress
@@ -89,7 +95,7 @@ My daily routine for this repository:
 ## 📞 Connect With Me
 
 - **GitHub**: [@MuhammadUzair8472](https://github.com/MuhammadUzair8472)
-- **Repository**: [fullstack-journey](https://github.com/MuhammadUzair8472/fullstack-journey)
+- **Repository**: [MERN-Course](https://github.com/MuhammadUzair8472/MERN-Course)
 
 ## 📄 License
 
@@ -99,4 +105,4 @@ This repository is for educational purposes as part of my learning journey.
 
 **🎓 "Every expert was once a beginner. Every pro was once an amateur."**
 
-*Last Updated: Day 1 - September 2025*
+*Last Updated: September 2025*
